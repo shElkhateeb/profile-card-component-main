@@ -13,6 +13,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+/* Start text */
 .name,
 .stat h2,
 .age {
@@ -34,7 +35,8 @@ h3 {
 p {
   font-size: 12px;
 }
-
+/* End text */
+/* Start header */
 img {
   display: block;
   position: absolute;
@@ -58,7 +60,28 @@ img {
   height: 150px;
   background-color: aquamarine;
 }
-
+/* End header */
+/* Start personal information */
+.personal-info {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.name,
+.age {
+    margin: 0;
+}
+/* End personal information */
+/* Start statistics */
+.statistics {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* End statistics */
+/* Start card */
 .card {
   width: 330px;
   height: 400px;
@@ -77,11 +100,7 @@ img {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-
-.statistics {
-  display: flex;
-  justify-content: space-around;
-}
+/* End card */
 
 .attribution {
   font-size: 11px;
