@@ -78,7 +78,7 @@ img {
 /* End header */
 /* Start personal information */
 .personal-info {
-  width: 50%;
+  width: 40%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -104,8 +104,8 @@ img {
 /* End statistics */
 /* Start card */
 .card {
-  width: 330px;
-  height: 400px;
+  width: 350px;
+  height: 380px;
   position: absolute;
   top: 50vh;
   left: 50vw;
