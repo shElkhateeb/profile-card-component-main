@@ -121,6 +121,10 @@ img {
   -o-border-radius: 20px;
   background-color: white;
 }
+
+hr {
+    color: #ededed;
+}
 /* End card */
 
 .attribution {
