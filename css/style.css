@@ -80,7 +80,13 @@ img {
     display: flex;
     justify-content: space-around;
   }
-  /* End statistics */
+.stat {
+    text-align: center;
+}
+.stat p {
+    margin-top: -10px;
+}
+/* End statistics */
 /* Start card */
 .card {
   width: 330px;
